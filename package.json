@@ -1,0 +1,16 @@
+{
+  "name": "littlelink",
+  "source": "index.html",
+  "homepage": "https://y-hbb.github.io/littlelink",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0",
+    "parcel": "^2.14.4",
+    "svgo": "^3.3.2"
+  }
+}
