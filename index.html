@@ -47,7 +47,10 @@
     function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
 
-    gtag('config', 'G-C8S5TLR1YF');
+    gtag('config', 'G-C8S5TLR1YF', {
+      'cookie_flags': 'SameSite=None;Secure',
+      'cookie_domain': 'auto'
+    });
   </script>
 
 
